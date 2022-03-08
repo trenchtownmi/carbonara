@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.wrapper {
+  background-image: url(../images/main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif; }
+  .wrapper .container {
+    max-width: 1215px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto; }
+  .wrapper .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 34px;
+    padding-bottom: 166px; }
+    .wrapper .header .nav__list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .wrapper .header .nav__list .nav__link .nav__link-item {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        color: #ffffff; }
+      .wrapper .header .nav__list .nav__link:not(:last-child) {
+        margin-right: 30px; }
+
+.slider__item {
+  text-align: center;
+  color: #ffffff; }
+  .slider__item .item__title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+    /* identical to box height */ }
+  .slider__item .item__text {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px; }
+
+.slick-dots {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 105px;
+  margin: 0 auto;
+  margin-top: 30px; }
+  .slick-dots button {
+    font-size: 0;
+    border: none;
+    outline: none;
+    background: #7a3d1c;
+    border: 2px solid #fdd486;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 100%; }
+
+/*# sourceMappingURL=main.css.map */
